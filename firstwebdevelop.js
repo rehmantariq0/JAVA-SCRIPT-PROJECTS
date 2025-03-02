@@ -42,3 +42,26 @@ const profile = {
     follower:199,   
     following:5,   
 };
+// arithmtic operator
+let s = 10;
+let b= 20;
+console.log(s+b);
+console.log(s%b);
+console.log(s-b);
+console.log(s*b);
+console.log(s/b);
+console.log(s ** b);
+console.log(s**s);
+// assinment operator
+// let s = 10;
+// let b= 20;
+s+=2;
+// s-=2;
+// s*=2;
+// s/=2;
+// s%=2;
+console.log(s)
+// comparison operator
+// (equal to == )(not equal to !=)(grater than >)
+// (less than <)(grater than equal to >=)
+// (less than equal to <=)  
