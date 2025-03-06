@@ -77,65 +77,85 @@
 // let cond1 = (s < b);//true
 // let cond2 = (a == 9);//true
 // console.log(cond1 || cond2 );
-let age = 45 ;
-if (age > 10 && age <15 ){
-    console.log("you can play with chilldren");
-}
-if(age>=16 && age <= 20 ){
-    console.log("you can play with us!");
-}
-else{
-    console.log("you can play with internationl Team");
-}
-let mood="dark";
-let color;
-if(mood==="dark"){
-    color= "black";
-}
-else{
-    color="white"
-}
-console.log(color);
-let num = 40;
-if (num%2 == 1){
-    console.log("your number is odd")
-}else{
-    console.log("your number is even")
-}
-let buget = 120000;
-let buy_Bike;
-if(buget>= 60000 && buget<= 70000){
-    console.log("showing the 2nd hand 70 bike");
-}else if(buget>= 70000 && buget<= 100000){
-    console.log("showing the 2nd hand 125 bike");
-}else{
-    console.log("showing the New bikes");
-}
-// ternary operator
-// condition ? ture output : false output
-let res = age > 18 ? "adult" : "Not adult";
-console.log(res);
-// switch statement
-let expr = prompt("Enter a Fruit Name:");
-switch (expr) {
-    case "Oranges":
-      console.log("Oranges are $0.59 a pound.");
-      break;
-    case "Apples":
-      console.log("Apples are $0.32 a pound.");
-      break;
-    case "Bananas":
-      console.log("Bananas are $0.48 a pound.");
-      break;
-    case "Cherries":
-      console.log("Cherries are $3.00 a pound.");
-      break;
-    case "Mangoes":
-    case "Papayas":
-      console.log("Mangoes and papayas are $2.79 a pound.");
-      break;
-    default:
-      console.log(`Sorry, we are out of ${expr}.`);
-  }
-  console.log("Is there anything else you'd like?");
+// let age = 45 ;
+// if (age > 10 && age <15 ){
+//     console.log("you can play with chilldren");
+// }
+// if(age>=16 && age <= 20 ){
+//     console.log("you can play with us!");
+// }
+// else{
+//     console.log("you can play with internationl Team");
+// }
+// let mood="dark";
+// let color;
+// if(mood==="dark"){
+//     color= "black";
+// }
+// else{
+//     color="white"
+// }
+// console.log(color);
+// let num = 40;
+// if (num%2 == 1){
+//     console.log("your number is odd")
+// }else{
+//     console.log("your number is even")
+// }
+// let buget = 120000;
+// let buy_Bike;
+// if(buget>= 60000 && buget<= 70000){
+//     console.log("showing the 2nd hand 70 bike");
+// }else if(buget>= 70000 && buget<= 100000){
+//     console.log("showing the 2nd hand 125 bike");
+// }else{
+//     console.log("showing the New bikes");
+// }
+// // ternary operator
+// // condition ? ture output : false output
+// let res = age > 18 ? "adult" : "Not adult";
+// console.log(res);
+// // switch statement
+// let expr = prompt("Enter a Fruit Name:");
+// switch (expr) {
+//     case "Oranges":
+//       console.log("Oranges are $0.59 a pound.");
+//       break;
+//     case "Apples":
+//       console.log("Apples are $0.32 a pound.");
+//       break;
+//     case "Bananas":
+//       console.log("Bananas are $0.48 a pound.");
+//       break;
+//     case "Cherries":
+//       console.log("Cherries are $3.00 a pound.");
+//       break;
+//     case "Mangoes":
+//     case "Papayas":
+//       console.log("Mangoes and papayas are $2.79 a pound.");
+//       break;
+//     default:
+//       console.log(`Sorry, we are out of ${expr}.`);
+//   }
+//   console.log("Is there anything else you'd like?");
   
+// for(let i=1; i<=5; i++){
+//     console.log("Pakistan");
+// };
+// let q=1;
+// while(q <= 5){
+//     console.log(q);
+//     q++;
+// };
+// // for of loop and for in 
+// let str = "rehamn tariq";
+// for(let val of str){
+//     console.log("val = ",val );
+// }
+// lets create a game 
+let gameNum = 17;
+let userNum = prompt("Enter the Number: ");
+while(gameNum != userNum){
+    userNum = prompt("Enter again: ");
+}
+console.log("cogratulation, You got it");
