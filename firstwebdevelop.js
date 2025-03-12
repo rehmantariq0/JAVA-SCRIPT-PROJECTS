@@ -153,9 +153,120 @@
 //     console.log("val = ",val );
 // }
 // lets create a game 
-let gameNum = 17;
-let userNum = prompt("Enter the Number: ");
-while(gameNum != userNum){
-    userNum = prompt("Enter again: ");
-}
-console.log("cogratulation, You got it");
+// let gameNum = 17;
+// let userNum = prompt("Enter the Number: ");
+// while(gameNum != userNum){
+//     userNum = prompt("Enter again: ");
+// }
+// console.log("cogratulation, You got it");
+// let fullName = prompt("Enter Your full Name");
+// console.log(fullName.toUpperCase());
+// let len = fullName.length;
+// let username = "@" + fullName + len;
+// console.log(username);
+// array making
+// let marks = [93, 33, 74, 78, 32];
+// console.log(marks[3]);
+// for(let index =0; index < marks.length; index++){
+    
+//     console.log(marks[index]);
+// };
+// console.log(marks);
+// let items = [930, 330, 740, 780, 320];
+// console.log("Befor Offer");
+// console.log(items);
+// for(let i =0 ; i< items.length; i++){
+//     let Offer = items[i]/10;
+//     items[i]-=Offer;
+// };
+// console.log("After 10% off");
+// console.log(items);
+// for(i=1;i<=10;i++){
+//     console.log(i);
+// };
+// let a=0;
+// while(a<=20){
+//     if(a%2 == 0){
+//         console.log(a);
+//     }
+//     a++;
+// };
+// let nNo = 0;
+// for(let l=0; l<=5; l++){
+//     nNo+=l;
+// };
+// console.log(nNo);
+// let num= 10;
+// do{
+//     console.log(num);
+//     num--;
+// }
+// while(num>0);
+// let usrenum = prompt("Give me the Number for Printing it table");
+// for(let i=1; i<=10; i++){
+//     console.log(usrenum,"x",i,"=",usrenum*i);
+// };
+// let arr = ["Ali", "Sara", "Ahmed", "Fatima"];
+// for(let i=0; i<arr.length; i++){
+//     console.log(arr[i]);
+// };
+// let compnies =["google","YouTube","Yahoo!","Facebook","Microsoft","instagram"];
+// // console.log(compnies.splice(0,1));
+// // console.log(compnies);
+// compnies.splice(2,1,"Ubar");
+// console.log(compnies);
+// compnies.push("Amazon");
+// console.log(compnies);
+// const multiply = (a,b)=>{
+//     return a*b;
+// };
+// console.log(multiply(4,5));
+// let squ =[3,4,7,9,10];
+// squ.forEach(val => {
+//     console.log(val*val);
+// });
+// let stdmarks = [55,77,89,91,98,67,99]
+// let topper = stdmarks.filter(aGrade=>{
+//     return aGrade>90;
+// })
+// console.log(topper)
+// let n = prompt("Enter a no for Fictorial!");
+// arr = [];
+// for(i=1;i<=n;i++){
+//     arr[i-1]=i;
+// };
+// let fictorial=arr.reduce((res,curr)=>{
+//     return res*curr;
+// })
+// console.log(fictorial);
+// let number = prompt("Enter a Number for Check Number is Prime or Not:");
+// if(number==2||number==3){
+//     console.log(number+"\nYou Enter Prime Number!");
+// }else if(number%2==0 || number%3==0){
+//     console.log(number+"\nNumber is not Prime");
+// }else{
+//     console.log(number+"\nYou Enter Prime Number!");
+// };
+function greet(){
+    console.log("Hello world!");
+};
+greet()
+//2
+function sum(a,b){
+    console.log(a+b);
+};
+sum(33,25);
+function greet1(name="Guset"){
+    console.log("Hello "+name);
+};
+n= prompt("Enter name!");
+greet1(n);
+function fictorial(num){
+    let mup =1;
+    for(let i=1;i<=num;i++){
+        mup=mup*i;
+    }
+    return mup;
+};
+let usernum=prompt("Eunter a Number of fictorial!")
+console.log(fictorial(usernum));
