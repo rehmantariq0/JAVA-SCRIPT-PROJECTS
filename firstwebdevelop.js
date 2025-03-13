@@ -247,26 +247,48 @@
 // }else{
 //     console.log(number+"\nYou Enter Prime Number!");
 // };
-function greet(){
-    console.log("Hello world!");
-};
-greet()
-//2
-function sum(a,b){
-    console.log(a+b);
-};
-sum(33,25);
-function greet1(name="Guset"){
-    console.log("Hello "+name);
-};
-n= prompt("Enter name!");
-greet1(n);
-function fictorial(num){
-    let mup =1;
-    for(let i=1;i<=num;i++){
-        mup=mup*i;
-    }
-    return mup;
-};
-let usernum=prompt("Eunter a Number of fictorial!")
-console.log(fictorial(usernum));
+// function greet(){
+//     console.log("Hello world!");
+// };
+// greet()
+// //2
+// function sum(a,b){
+//     console.log(a+b);
+// };
+// sum(33,25);
+// function greet1(name="Guset"){
+//     console.log("Hello "+name);
+// };
+// n= prompt("Enter name!");
+// greet1(n);
+// function fictorial(num){
+//     let mup =1;
+//     for(let i=1;i<=num;i++){
+//         mup=mup*i;
+//     }
+//     return mup;
+// };
+// let usernum=prompt("Eunter a Number of fictorial!")
+// console.log(fictorial(usernum));
+// let num1=Number(prompt("Enter a First Number"));
+// let num2=Number(prompt("Enter a Second Number"));
+// let num3=Number(prompt("Enter a Third Number"));
+// if(num1>num2 && num1>num3){
+//     console.log(`${num1} Is largest Number`);
+// }else if(num2>num1 && num2>num3){
+//     console.log(`${num2} Is largest Number`);
+// }else{
+//     console.log(`${num3} Is largest Number`);
+// }
+// let num1=Number(prompt("Enter a Number"));
+// if(num1%5==0 || num1%11==0){
+//     console.log("Your Number is Divisiable 5 or 11");
+// }else{
+//     console.log("Your Number is Not Divisiable")
+// };
+let leapYear=Number(prompt("Enter year"));
+if(leapYear%4==0){
+    console.log("It's a leap Year")
+}else{
+    console.log("It's Not a leap year")
+}
